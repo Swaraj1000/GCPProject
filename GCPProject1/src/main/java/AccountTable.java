@@ -5,12 +5,12 @@ import org.apache.beam.sdk.schemas.annotations.DefaultSchema;
 @DefaultSchema(JavaFieldSchema.class)
 public class AccountTable {
     private int id;
-    private String Name;
-    private String Surname;
+    private String name;
+    private String surname;
 
-    public AccountTable(int id,String Name,String Surname){
+    public AccountTable(int id,String name,String surname){
         this.id = id;
-        this.Name = Name;
-        this.Surname = Surname;
+        this.name = name;
+        this.surname = surname;
     }
 }
