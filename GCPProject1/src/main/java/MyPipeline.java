@@ -60,8 +60,8 @@ public class Main {
         public static final Schema rawSchema = Schema
                 .builder()
                 .addInt32Field("id")
-                .addStringField("Name")
-                .addStringField("Surname")
+                .addStringField("name")
+                .addStringField("surname")
                 .build();
 
         public static PipelineResult run(Options options){
