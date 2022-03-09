@@ -21,7 +21,7 @@ import org.apache.beam.sdk.values.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 public class MyPipeline {
-        private static final Logger LOG = LoggerFactory.getLogger(Main.class);
+        private static final Logger LOG = LoggerFactory.getLogger(MyPipeline.class);
 
         private static TupleTag<AccountTable> ValidMessage = new TupleTag<AccountTable>(){};
         private static TupleTag<String> DlqMessage = new TupleTag<String>(){};
