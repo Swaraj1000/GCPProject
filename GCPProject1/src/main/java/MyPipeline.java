@@ -20,7 +20,7 @@ import org.apache.beam.sdk.transforms.windowing.Window;
 import org.apache.beam.sdk.values.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-public class Main {
+public class MyPipeline {
         private static final Logger LOG = LoggerFactory.getLogger(Main.class);
 
         private static TupleTag<AccountTable> ValidMessage = new TupleTag<AccountTable>(){};
