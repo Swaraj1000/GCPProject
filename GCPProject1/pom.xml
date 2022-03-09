@@ -94,7 +94,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>UseCase1.UseCase1_PubSub_to_BigQuery</mainClass>
+                    <mainClass>MyPipeline</mainClass>
                 </configuration>
             </plugin>
 
